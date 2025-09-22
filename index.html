@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Japanese Flashcards</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 600px;
+            width: 100%;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #ff6b6b, #ee5a24);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+
+        .progress {
+            background: rgba(255, 255, 255, 0.2);
+            height: 6px;
+            border-radius: 3px;
+            margin-top: 15px;
+            overflow: hidden;
+        }
+
+        .progress-bar {
+            background: white;
+            height: 100%;
+            border-radius: 3px;
+            transition: width 0.3s ease;
+            width: 0%;
+        }
+
+        .card-container {
+            padding: 40px;
+            text-align: center;
+        }
+
+        .flashcard {
+            perspective: 1000px;
+            margin-bottom: 30px;
+        }
+
+        .card {
+            position: relative;
+            width: 100%;
+            height: 200px;
+            transform-style: preserve-3d;
+            transition: transform 0.6s;
+            cursor: pointer;
+        }
+
+        .card.flipped {
+            transform: rotateY(180deg);
+        }
+
+        .card-front, .card-back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+        }
+
+        .card-front {
+            background: linear-gradient(135deg, #74b9ff, #0984e3);
+            color: white;
+            font-size: 48px;
+        }
+
+        .card-back {
+            background: linear-gradient(135deg, #00b894, #00cec9);
+            color: white;
+            transform: rotateY(180deg);
+            flex-direction: column;
+            font-size: 20px;
+        }
+
+        .romanji {
+            font-size: 24px;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .meaning {
+            font-size: 18px;
+            opacity: 0.9;
+        }
+
+        .input-section {
+            margin-bottom: 30px;
+        }
+
+        .input-group {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        input[type="text"] {
+            padding: 12px 20px;
+            font-size: 16px;
+            border: 2px solid #ddd;
+            border-radius: 25px;
+            outline: none;
+            transition: border-color 0.3s;
+            min-width: 200px;
+        }
+
+        input[type="text"]:focus {
+            border-color: #74b9ff;
+        }
+
+        .btn {
+            padding: 12px 24px;
+            border: none;
+            border-radius: 25px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #fd79a8, #e84393);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(232, 67, 147, 0.3);
+        }
+
+        .btn-secondary {
+            background: linear-gradient(135deg, #a29bfe, #6c5ce7);
+            color: white;
+        }
+
+        .btn-secondary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(108, 92, 231, 0.3);
+        }
+
+        .feedback {
+            margin: 15px 0;
+            padding: 12px 20px;
+            border-radius: 10px;
+            font-weight: bold;
+            font-size: 16px;
+            min-height: 45px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s;
+            white-space: pre-line;
+            text-align: center;
+            line-height: 1.4;
+        }
+
+        .feedback.correct {
+            background: linear-gradient(135deg, #00b894, #00cec9);
+            color: white;
+        }
+
+        .feedback.incorrect {
+            background: linear-gradient(135deg, #e17055, #d63031);
+            color: white;
+        }
+
+        .feedback.hidden {
+            opacity: 0;
+            transform: translateY(-10px);
+        }
+
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .card-counter {
+            font-size: 16px;
+            color: #666;
+            font-weight: bold;
+        }
+
+        .nav-buttons {
+            display: flex;
+            gap: 10px;
+        }
+
+        .btn-nav {
+            padding: 8px 16px;
+            background: #f8f9fa;
+            border: 2px solid #e9ecef;
+            border-radius: 20px;
+            font-size: 14px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .btn-nav:hover {
+            background: #e9ecef;
+            transform: translateY(-1px);
+        }
+
+        .btn-nav:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                margin: 10px;
+            }
+            
+            .card-container {
+                padding: 20px;
+            }
+            
+            .card-front {
+                font-size: 36px;
+            }
+            
+            .input-group {
+                flex-direction: column;
+                gap: 15px;
+            }
+            
+            input[type="text"] {
+                min-width: auto;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Japanese Flashcards</h1>
+            <p>Practice your Japanese vocabulary</p>
+            <div class="progress">
+                <div class="progress-bar" id="progressBar"></div>
+            </div>
+        </div>
+        
+        <div class="card-container">
+            <div class="flashcard">
+                <div class="card" id="flashcard">
+                    <div class="card-front" id="cardFront">
+                        Loading...
+                    </div>
+                    <div class="card-back" id="cardBack">
+                        <div class="romanji" id="cardRomanji"></div>
+                        <div class="meaning" id="cardMeaning"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="input-section">
+                <div class="input-group">
+                    <input type="text" id="userInput" placeholder="Type the romanji..." autocomplete="off">
+                    <button class="btn btn-primary" id="submitBtn">Check</button>
+                </div>
+                
+                <div class="feedback hidden" id="feedback"></div>
+                
+                <button class="btn btn-secondary" id="flipBtn">Show Answer</button>
+            </div>
+            
+            <div class="navigation">
+                <div class="card-counter">
+                    <span id="currentCard">1</span> / <span id="totalCards">0</span>
+                </div>
+                <div class="nav-buttons">
+                    <button class="btn-nav" id="prevBtn">← Previous</button>
+                    <button class="btn-nav" id="nextBtn">Next →</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        class FlashcardApp {
+            constructor() {
+                this.words = [];
+                this.shuffledWords = [];
+                this.currentIndex = 0;
+                this.isFlipped = false;
+                this.score = { correct: 0, total: 0 };
+                this.roundCount = 1;
+                
+                this.initializeElements();
+                this.loadWords();
+                this.setupEventListeners();
+            }
+            
+            initializeElements() {
+                this.flashcard = document.getElementById('flashcard');
+                this.cardFront = document.getElementById('cardFront');
+                this.cardBack = document.getElementById('cardBack');
+                this.cardRomanji = document.getElementById('cardRomanji');
+                this.cardMeaning = document.getElementById('cardMeaning');
+                this.userInput = document.getElementById('userInput');
+                this.submitBtn = document.getElementById('submitBtn');
+                this.flipBtn = document.getElementById('flipBtn');
+                this.feedback = document.getElementById('feedback');
+                this.currentCardSpan = document.getElementById('currentCard');
+                this.totalCardsSpan = document.getElementById('totalCards');
+                this.prevBtn = document.getElementById('prevBtn');
+                this.nextBtn = document.getElementById('nextBtn');
+                this.progressBar = document.getElementById('progressBar');
+            }
+            
+            async loadWords() {
+                try {
+                    const response = await fetch('words.json');
+                    const data = await response.json();
+                    // Filter out empty words
+                    this.words = data.filter(word => word.word && word.romanji && word.meaning);
+                    this.shuffleWords();
+                    this.totalCardsSpan.textContent = '∞';
+                    this.displayCurrentCard();
+                    this.updateNavigation();
+                } catch (error) {
+                    console.error('Error loading words:', error);
+                    this.cardFront.textContent = 'Error loading words';
+                }
+            }
+            
+            shuffleWords() {
+                // Create a shuffled copy of the words array
+                this.shuffledWords = [...this.words];
+                for (let i = this.shuffledWords.length - 1; i > 0; i--) {
+                    const j = Math.floor(Math.random() * (i + 1));
+                    [this.shuffledWords[i], this.shuffledWords[j]] = [this.shuffledWords[j], this.shuffledWords[i]];
+                }
+                this.currentIndex = 0;
+            }
+            
+            setupEventListeners() {
+                this.submitBtn.addEventListener('click', () => this.checkAnswer());
+                this.flipBtn.addEventListener('click', () => this.flipCard());
+                this.prevBtn.addEventListener('click', () => this.previousCard());
+                this.nextBtn.addEventListener('click', () => this.nextCard());
+                this.flashcard.addEventListener('click', () => this.flipCard());
+                
+                this.userInput.addEventListener('keypress', (e) => {
+                    if (e.key === 'Enter') {
+                        this.checkAnswer();
+                    }
+                });
+                
+                this.userInput.addEventListener('input', () => {
+                    this.hideFeedback();
+                });
+            }
+            
+            displayCurrentCard() {
+                if (this.words.length === 0) return;
+                
+                const currentWord = this.shuffledWords[this.currentIndex];
+                this.cardFront.textContent = currentWord.word;
+                this.cardRomanji.textContent = currentWord.romanji;
+                
+                // Handle multiple meanings
+                const meanings = Array.isArray(currentWord.meaning) 
+                    ? currentWord.meaning.join(', ') 
+                    : currentWord.meaning;
+                this.cardMeaning.textContent = meanings;
+                
+                // Show current position in current round
+                const positionInRound = (this.currentIndex % this.words.length) + 1;
+                this.currentCardSpan.textContent = `${positionInRound} (Round ${this.roundCount})`;
+                this.isFlipped = false;
+                this.flashcard.classList.remove('flipped');
+                this.userInput.value = '';
+                this.hideFeedback();
+                this.userInput.focus();
+                
+                this.updateProgress();
+            }
+            
+            checkAnswer() {
+                if (this.words.length === 0) return;
+                
+                const userAnswer = this.userInput.value.trim();
+                
+                // Validate input is not empty
+                if (userAnswer === '') {
+                    this.showFeedback('Please enter an answer!', false);
+                    this.userInput.focus();
+                    return;
+                }
+                
+                const currentWord = this.shuffledWords[this.currentIndex];
+                const correctAnswer = currentWord.romanji.toLowerCase();
+                
+                // Prepare meaning text
+                const meanings = Array.isArray(currentWord.meaning) 
+                    ? currentWord.meaning.join(', ') 
+                    : currentWord.meaning;
+                
+                this.score.total++;
+                
+                if (userAnswer.toLowerCase() === correctAnswer) {
+                    this.score.correct++;
+                    this.showFeedback(`Correct! よくできました!\nRomanji: ${currentWord.romanji}\nMeaning: ${meanings}`, true);
+                    // Auto advance immediately for correct answers
+                    setTimeout(() => {
+                        this.nextCard();
+                    }, 1500);
+                } else {
+                    this.showFeedback(`Incorrect.\nCorrect Romanji: ${currentWord.romanji}\nMeaning: ${meanings}`, false);
+                    // Show incorrect answer for a bit longer
+                    setTimeout(() => {
+                        this.nextCard();
+                    }, 3000);
+                }
+            }
+            
+            showFeedback(message, isCorrect) {
+                this.feedback.textContent = message;
+                this.feedback.className = `feedback ${isCorrect ? 'correct' : 'incorrect'}`;
+            }
+            
+            hideFeedback() {
+                this.feedback.className = 'feedback hidden';
+            }
+            
+            flipCard() {
+                this.isFlipped = !this.isFlipped;
+                this.flashcard.classList.toggle('flipped');
+            }
+            
+            nextCard() {
+                this.currentIndex++;
+                
+                // If we've gone through all words, shuffle and start a new round
+                if (this.currentIndex >= this.shuffledWords.length) {
+                    this.roundCount++;
+                    this.shuffleWords(); // Reshuffle for new round
+                }
+                
+                this.displayCurrentCard();
+                this.updateNavigation();
+            }
+            
+            previousCard() {
+                this.currentIndex--;
+                
+                // If we go before the first card, go to the last card of previous round
+                if (this.currentIndex < 0) {
+                    if (this.roundCount > 1) {
+                        this.roundCount--;
+                        this.currentIndex = this.shuffledWords.length - 1;
+                    } else {
+                        this.currentIndex = 0; // Stay at first card if we're in round 1
+                    }
+                }
+                
+                this.displayCurrentCard();
+                this.updateNavigation();
+            }
+            
+            updateNavigation() {
+                // Previous button is disabled only at the very first card of round 1
+                this.prevBtn.disabled = (this.currentIndex === 0 && this.roundCount === 1);
+                // Next button is never disabled since we loop infinitely
+                this.nextBtn.disabled = false;
+            }
+            
+            updateProgress() {
+                // Show progress within current round
+                const progressInRound = ((this.currentIndex % this.words.length) + 1) / this.words.length * 100;
+                this.progressBar.style.width = `${progressInRound}%`;
+            }
+        }
+        
+        // Initialize the app when the page loads
+        document.addEventListener('DOMContentLoaded', () => {
+            new FlashcardApp();
+        });
+    </script>
+</body>
+</html>

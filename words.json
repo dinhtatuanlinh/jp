@@ -1,0 +1,314 @@
+[
+    {
+        "word": "ばめん",
+        "romanji": "bamen",
+        "meaning": ["tình huống"],
+        "audio": ""
+    },
+    {
+        "word": "い",
+        "romanji": "i",
+        "meaning": ["dạ dày"],
+        "audio": ""
+    },
+    {
+        "word": "あい",
+        "romanji": "ai",
+        "meaning": ["tình yêu"],
+        "audio": ""
+    },
+    {
+        "word": "いえ",
+        "romanji": "ie",
+        "meaning": ["ngôi nhà"],
+        "audio": ""
+    },
+    {
+        "word": "かさ",
+        "romanji": "kasa",
+        "meaning": ["cái ô"],
+        "audio": ""
+    },
+    {
+        "word": "すし",
+        "romanji": "sushi",
+        "meaning": ["sushi"],
+        "audio": ""
+    },
+    {
+        "word": "すき",
+        "romanji": "suki",
+        "meaning": ["thích"],
+        "audio": ""
+    },
+    {
+        "word": "て",
+        "romanji": "te",
+        "meaning": ["tay"],
+        "audio": ""
+    },
+    {
+        "word": "き",
+        "romanji": "ki",
+        "meaning": ["cái cây"],
+        "audio": ""
+    },
+    {
+        "word": "え",
+        "romanji": "e",
+        "meaning": ["bức tranh"],
+        "audio": ""
+    },
+    {
+        "word": "いぬ",
+        "romanji": "inu",
+        "meaning": ["chó"],
+        "audio": ""
+    },
+    {
+        "word": "ねこ",
+        "romanji": "neko",
+        "meaning": ["mèo"],
+        "audio": ""
+    },
+    {
+        "word": "おかね",
+        "romanji": "okane",
+        "meaning": ["tiền"],
+        "audio": ""
+    },
+    {
+        "word": "はな",
+        "romanji": "hana",
+        "meaning": ["hoa"],
+        "audio": ""
+    },
+    {
+        "word": "ふく",
+        "romanji": "fuku",
+        "meaning": ["quần áo"],
+        "audio": ""
+    },
+    {
+        "word": "にく",
+        "romanji": "niku",
+        "meaning": ["thịt"],
+        "audio": ""
+    },
+    {
+        "word": "みみ",
+        "romanji": "mimi",
+        "meaning": ["tai"],
+        "audio": ""
+    },
+    {
+        "word": "うま",
+        "romanji": "uma",
+        "meaning": ["con ngựa"],
+        "audio": ""
+    },
+    {
+        "word": "あめ",
+        "romanji": "ame",
+        "meaning": ["cơn mưa", "kẹo"],
+        "audio": ""
+    },
+    {
+        "word": "あき",
+        "romanji": "aki",
+        "meaning": ["mùa thu"],
+        "audio": ""
+    },
+    {
+        "word": "くに",
+        "romanji": "kuni",
+        "meaning": ["đất nước"],
+        "audio": ""
+    },
+    {
+        "word": "つくえ",
+        "romanji": "tsukue",
+        "meaning": ["cái bàn"],
+        "audio": ""
+    },
+    {
+        "word": "やま",
+        "romanji": "yama",
+        "meaning": ["ngọn núi"],
+        "audio": ""
+    },
+    {
+        "word": "ゆき",
+        "romanji": "yuki",
+        "meaning": ["tuyết"],
+        "audio": ""
+    },
+    {
+        "word": "おはよう",
+        "romanji": "ohayoo",
+        "meaning": ["chào buổi sáng"],
+        "audio": ""
+    },
+    {
+        "word": "さる",
+        "romanji": "saru",
+        "meaning": ["con khỉ"],
+        "audio": ""
+    },
+    {
+        "word": "さくら",
+        "romanji": "sakura",
+        "meaning": ["hoa anh đào"],
+        "audio": ""
+    },
+    {
+        "word": "しろい",
+        "romanji": "shiroi",
+        "meaning": ["màu trắng"],
+        "audio": ""
+    },
+    {
+        "word": "わたし",
+        "romanji": "watashi",
+        "meaning": ["tôi"],
+        "audio": ""
+    },
+    {
+        "word": "ほんや",
+        "romanji": "honya",
+        "meaning": ["hiệu sách"],
+        "audio": ""
+    },
+    {
+        "word": "かわいい",
+        "romanji": "kawaii",
+        "meaning": ["dễ thương"],
+        "audio": ""
+    },
+    {
+        "word": "わたしは linh です",
+        "romanji": "watashi wa Linh desu",
+        "meaning": ["tôi là Linh"],
+        "audio": ""
+    },
+    {
+        "word": "にほんご",
+        "romanji": "nihongo",
+        "meaning": ["tiếng Nhật"],
+        "audio": ""
+    },
+    {
+        "word": "ふじさん",
+        "romanji": "fujisan",
+        "meaning": ["núi Phú Sĩ"],
+        "audio": ""
+    },
+    {
+        "word": "てんぷら",
+        "romanji": "tempura",
+        "meaning": ["tempura"],
+        "audio": ""
+    },
+    {
+        "word": "でんき",
+        "romanji": "denki",
+        "meaning": ["điện"],
+        "audio": ""
+    },
+    {
+        "word": "みんな",
+        "romanji": "minna",
+        "meaning": ["mọi người"],
+        "audio": ""
+    },
+    {
+        "word": "もしもし",
+        "romanji": "moshi moshi",
+        "meaning": ["alo"],
+        "audio": ""
+    },
+    {
+        "word": "おちゃ",
+        "romanji": "ocha",
+        "meaning": ["trà"],
+        "audio": ""
+    },
+    {
+        "word": "きょねん",
+        "romanji": "kyonen",
+        "meaning": ["năm ngoái"],
+        "audio": ""
+    },
+    {
+        "word": "じゃ、また",
+        "romanji": "ja, mata",
+        "meaning": ["hẹn gặp lại"],
+        "audio": ""
+    },
+    {
+        "word": "かいしゃ",
+        "romanji": "kaisha",
+        "meaning": ["công ty"],
+        "audio": ""
+    },
+    {
+        "word": "じゃ、またね",
+        "romanji": "ja, mata ne",
+        "meaning": ["hẹn gặp lại nhé"],
+        "audio": ""
+    },
+    {
+        "word": "まだです",
+        "romanji": "mada desu",
+        "meaning": ["chưa xong"],
+        "audio": ""
+    },
+    {
+        "word": "がいこく",
+        "romanji": "gaikoku",
+        "meaning": ["nước ngoài"],
+        "audio": ""
+    },
+    {
+        "word": "がいこくご",
+        "romanji": "gaikokugo",
+        "meaning": ["tiếng nước ngoài"],
+        "audio": ""
+    },
+    {
+        "word": "えんぴつ",
+        "romanji": "enpitsu",
+        "meaning": ["bút chì"],
+        "audio": ""
+    },
+    {
+        "word": "たばこ",
+        "romanji": "tabako",
+        "meaning": ["thuốc lá"],
+        "audio": ""
+    },
+    {
+        "word": "ゆびわ",
+        "romanji": "yubiwa",
+        "meaning": ["nhẫn"],
+        "audio": ""
+    },
+    {
+        "word": "てんしゃ",
+        "romanji": "densha",
+        "meaning": ["tàu điện"],
+        "audio": ""
+    },
+    {
+        "word": "しゆくだい",
+        "romanji": "shikudai",
+        "meaning": ["bài tập về nhà"],
+        "audio": ""
+    },
+    {
+        "word": "しょくじ",
+        "romanji": "shokuji",
+        "meaning": ["bữa ăn"],
+        "audio": ""
+    }
+]
