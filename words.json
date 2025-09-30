@@ -310,5 +310,635 @@
         "romanji": "shokuji",
         "meaning": ["bữa ăn"],
         "audio": ""
+    },
+    {
+        "word": "かお",
+        "romanji": "kao",
+        "meaning": ["mặt"],
+        "audio": ""
+    },
+    {
+        "word": "いけ",
+        "romanji": "ike",
+        "meaning": ["cái ao"],
+        "audio": ""
+    },
+    {
+        "word": "いす",
+        "romanji": "isu",
+        "meaning": ["cái ghế"],
+        "audio": ""
+    },
+    {
+        "word": "うそ",
+        "romanji": "uso",
+        "meaning": ["dối trá"],
+        "audio": ""
+    },
+    {
+        "word": "きつ",
+        "romanji": "kitsu",
+        "meaning": ["chật chội"],
+        "audio": ""
+    },
+    {
+        "word": "たこ",
+        "romanji": "tako",
+        "meaning": ["bạch tuộc"],
+        "audio": ""
+    },
+    {
+        "word": "なか",
+        "romanji": "naka",
+        "meaning": ["ở giữa"],
+        "audio": ""
+    },
+    {
+        "word": "ふね",
+        "romanji": "fune",
+        "meaning": ["chiếc thuyền"],
+        "audio": ""
+    },
+    {
+        "word": "もも",
+        "romanji": "momo",
+        "meaning": ["quả đào"],
+        "audio": ""
+    },
+    {
+        "word": "くるま",
+        "romanji": "kuruma",
+        "meaning": ["xe hơi"],
+        "audio": ""
+    },
+    {
+        "word": "しんかんせん",
+        "romanji": "shinkansen",
+        "meaning": ["tàu cao tốc Shinkansen"],
+        "audio": ""
+    },
+    {
+        "word": "ごはんをたべる",
+        "romanji": "gohan o taberu",
+        "meaning": ["ăn cơm"],
+        "audio": ""
+    },
+    {
+        "word": "ぶた",
+        "romanji": "buta",
+        "meaning": ["con lợn"],
+        "audio": ""
+    },
+    {
+        "word": "げんき",
+        "romanji": "genki",
+        "meaning": ["khỏe mạnh"],
+        "audio": ""
+    },
+    {
+        "word": "だいがく",
+        "romanji": "daigaku",
+        "meaning": ["đại học"],
+        "audio": ""
+    },
+    {
+        "word": "かのじょ",
+        "romanji": "kanojo",
+        "meaning": ["bạn gái"],
+        "audio": ""
+    },
+    {
+        "word": "ぴじゅつ",
+        "romanji": "bijutsu",
+        "meaning": ["mỹ thuật"],
+        "audio": ""
+    },
+    {
+        "word": "でんしゃ",
+        "romanji": "densha",
+        "meaning": ["tàu điện"],
+        "audio": ""
+    },
+    {
+        "word": "しゅくだい",
+        "romanji": "shukudai",
+        "meaning": ["bài tập về nhà"],
+        "audio": ""
+    },
+    {
+        "word": "おきゃくさん",
+        "romanji": "okyakusan",
+        "meaning": ["khách hàng"],
+        "audio": ""
+    },
+    {
+        "word": "あかい",
+        "romanji": "akai",
+        "meaning": ["màu đỏ"],
+        "audio": ""
+    },
+    {
+        "word": "おおきい",
+        "romanji": "ookii",
+        "meaning": ["to lớn"],
+        "audio": ""
+    },
+    {
+        "word": "ぶた",
+        "romanji": "buta",
+        "meaning": ["con lợn"],
+        "audio": ""
+    },
+    {
+        "word": "ふね",
+        "romanji": "fune",
+        "meaning": ["chiếc thuyền"],
+        "audio": ""
+    },
+    {
+        "word": "あき",
+        "romanji": "aki",
+        "meaning": ["mùa thu"],
+        "audio": ""
+    },
+    {
+        "word": "じてんしゃ",
+        "romanji": "jitensha",
+        "meaning": ["xe đạp"],
+        "audio": ""
+    },
+    {
+        "word": "かぞく",
+        "romanji": "kazoku",
+        "meaning": ["gia đình"],
+        "audio": ""
+    },
+    {
+        "word": "ほんや",
+        "romanji": "honya",
+        "meaning": ["hiệu sách"],
+        "audio": ""
+    },
+    {
+        "word": "ほんもの",
+        "romanji": "honmono",
+        "meaning": ["đồ thật"],
+        "audio": ""
+    },
+    {
+        "word": "ちかてつ",
+        "romanji": "chikatetsu",
+        "meaning": ["tàu điện ngầm"],
+        "audio": ""
+    },
+    {
+        "word": "はなみ",
+        "romanji": "hanami",
+        "meaning": ["ngắm hoa anh đào"],
+        "audio": ""
+    },
+    {
+        "word": "おやすみ",
+        "romanji": "oyasumi",
+        "meaning": ["ngủ ngon"],
+        "audio": ""
+    },
+    {
+        "word": "おつかれさまでした",
+        "romanji": "otsukaresama deshita",
+        "meaning": ["cảm ơn vì đã làm việc vất vả"],
+        "audio": ""
+    },
+    {
+        "word": "つかれました",
+        "romanji": "tsukaremashita",
+        "meaning": ["tôi đã mệt"],
+        "audio": ""
+    },
+    {
+        "word": "たべます",
+        "romanji": "tabemasu",
+        "meaning": ["ăn"],
+        "audio": ""
+    },
+    {
+        "word": "おやすみなさい",
+        "romanji": "oyasuminasai",
+        "meaning": ["chúc ngủ ngon"],
+        "audio": ""
+    },
+    {
+        "word": "てんぷら",
+        "romanji": "tenpura",
+        "meaning": ["bánh tempura"],
+        "audio": ""
+    },
+    {
+        "word": "ともだち",
+        "romanji": "tomodachi",
+        "meaning": ["bạn bè"],
+        "audio": ""
+    },
+    {
+        "word": "かいしゃいん",
+        "romanji": "kaishain",
+        "meaning": ["nhân viên công ty"],
+        "audio": ""
+    },
+    {
+        "word": "おかあさん",
+        "romanji": "okaasan",
+        "meaning": ["mẹ"],
+        "audio": ""
+    },
+    {
+        "word": "おばあさん",
+        "romanji": "obaasan",
+        "meaning": ["bà"],
+        "audio": ""
+    },
+    {
+        "word": "おにいさん",
+        "romanji": "oniisan",
+        "meaning": ["anh trai"],
+        "audio": ""
+    },
+    {
+        "word": "おじいさん",
+        "romanji": "ojiisan",
+        "meaning": ["ông"],
+        "audio": ""
+    },
+    {
+        "word": "おねえさん",
+        "romanji": "oneesan",
+        "meaning": ["chị gái"],
+        "audio": ""
+    },
+    {
+        "word": "おとおさん",
+        "romanji": "otoosan",
+        "meaning": ["cha"],
+        "audio": ""
+    },
+    {
+        "word": "かわいい",
+        "romanji": "kawaii",
+        "meaning": ["dễ thương"],
+        "audio": ""
+    },
+    {
+        "word": "ふうふ",
+        "romanji": "fuufu",
+        "meaning": ["vợ chồng"],
+        "audio": ""
+    },
+    {
+        "word": "じゅう",
+        "romanji": "juu",
+        "meaning": ["mười"],
+        "audio": ""
+    },
+    {
+        "word": "ゆうき",
+        "romanji": "yuuki",
+        "meaning": ["dũng cảm"],
+        "audio": ""
+    },
+    {
+        "word": "せんせい",
+        "romanji": "sensei",
+        "meaning": ["giáo viên"],
+        "audio": ""
+    },
+    {
+        "word": "おおきい",
+        "romanji": "ookii",
+        "meaning": ["to lớn"],
+        "audio": ""
+    },
+    {
+        "word": "きゃう",
+        "romanji": "kyou",
+        "meaning": ["hôm nay"],
+        "audio": ""
+    },
+    {
+        "word": "とうきょう",
+        "romanji": "toukyou",
+        "meaning": ["Tokyo"],
+        "audio": ""
+    },
+    {
+        "word": "とけい",
+        "romanji": "tokei",
+        "meaning": ["đồng hồ"],
+        "audio": ""
+    },
+    {
+        "word": "がっこう",
+        "romanji": "gakkou",
+        "meaning": ["trường học"],
+        "audio": ""
+    },
+    {
+        "word": "にっき",
+        "romanji": "nikki",
+        "meaning": ["nhật ký"],
+        "audio": ""
+    },
+    {
+        "word": "ざっし",
+        "romanji": "zasshi",
+        "meaning": ["tạp chí"],
+        "audio": ""
+    },
+    {
+        "word": "はっさい",
+        "romanji": "hassai",
+        "meaning": ["tám tuổi"],
+        "audio": ""
+    },
+    {
+        "word": "あさって",
+        "romanji": "asatte",
+        "meaning": ["ngày kia"],
+        "audio": ""
+    },
+    {
+        "word": "おっと",
+        "romanji": "otto",
+        "meaning": ["chồng"],
+        "audio": ""
+    },
+    {
+        "word": "きっぷ",
+        "romanji": "kippu",
+        "meaning": ["vé"],
+        "audio": ""
+    },
+    {
+        "word": "いっぱい",
+        "romanji": "ippai",
+        "meaning": ["nhiều"],
+        "audio": ""
+    },
+    {
+        "word": "もういちどおねがいします",
+        "romanji": "mouichidoonegaishimasu",
+        "meaning": ["làm ơn hãy nói lại lần nữa"],
+        "audio": ""
+    },
+    {
+        "word": "こおい",
+        "romanji": "kooi",
+        "meaning": ["đá lạnh"],
+        "audio": ""
+    },
+    {
+        "word": "こうこう",
+        "romanji": "koukou",
+        "meaning": ["trường trung học"],
+        "audio": ""
+    },
+    {
+        "word": "けいさつ",
+        "romanji": "keisatsu",
+        "meaning": ["cảnh sát"],
+        "audio": ""
+    },
+    {
+        "word": "ひこうき",
+        "romanji": "hikouki",
+        "meaning": ["máy bay"],
+        "audio": ""
+    },
+    {
+        "word": "はっぱ",
+        "romanji": "happa",
+        "meaning": ["lá cây"],
+        "audio": ""
+    },
+    {
+        "word": "きって",
+        "romanji": "kitte",
+        "meaning": ["tem　thu"],
+        "audio": ""
+    },
+    {
+        "word": "おっと",
+        "romanji": "otto",
+        "meaning": ["chồng"],
+        "audio": ""
+    },
+    {
+        "word": "ぼうし",
+        "romanji": "boushi",
+        "meaning": ["mũ"],
+        "audio": ""
+    },
+    {
+        "word": "ぎんこう",
+        "romanji": "ginkou",
+        "meaning": ["ngân hàng"],
+        "audio": ""
+    },
+    {
+        "word": "ぎんこういん",
+        "romanji": "ginkouin",
+        "meaning": ["nhân viên ngân hàng"],
+        "audio": ""
+    },
+    {
+        "word": "とうふ",
+        "romanji": "toufu",
+        "meaning": ["đậu phụ"],
+        "audio": ""
+    },
+    {
+        "word": "とおい",
+        "romanji": "tooi",
+        "meaning": ["xa"],
+        "audio": ""
+    },
+    {
+        "word": "けっこん",
+        "romanji": "kekkon",
+        "meaning": ["kết hôn"],
+        "audio": ""
+    },
+    {
+        "word": "けっこんしき",
+        "romanji": "kekkonshiki",
+        "meaning": ["lễ cưới"],
+        "audio": ""
+    },
+    {
+        "word": "べんとう",
+        "romanji": "bentou",
+        "meaning": ["cơm hộp"],
+        "audio": ""
+    },
+    {
+        "word": "えいが",
+        "romanji": "eiga",
+        "meaning": ["phim"],
+        "audio": ""
+    },
+    {
+        "word": "きいろ",
+        "romanji": "kiiro",
+        "meaning": ["màu vàng"],
+        "audio": ""
+    },
+    {
+        "word": "ぶっか",
+        "romanji": "bukka",
+        "meaning": ["giá cả"],
+        "audio": ""
+    },
+    {
+        "word": "がくせい",
+        "romanji": "gakusei",
+        "meaning": ["học sinh"],
+        "audio": ""
+    },
+    {
+        "word": "きっさてん",
+        "romanji": "kissaten",
+        "meaning": ["quán nước"],
+        "audio": ""
+    },
+    {
+        "word": "いますか",
+        "romanji": "imasu ka",
+        "meaning": ["có ở đây không?"],
+        "audio": ""
+    },
+    {
+        "word": "いません",
+        "romanji": "imasen",
+        "meaning": ["không có ở đây"],
+        "audio": ""
+    },
+    {
+        "word": "まだです",
+        "romanji": "mada desu",
+        "meaning": ["chưa"],
+        "audio": ""
+    },
+    {
+        "word": "きいてください",
+        "romanji": "kiite kudasai",
+        "meaning": ["hãy nghe đi"],
+        "audio": ""
+    },
+    {
+        "word": "かいてください",
+        "romanji": "kaite kudasai",
+        "meaning": ["hãy viết đi"],
+        "audio": ""
+    },
+    {
+        "word": "よんでください",
+        "romanji": "yonde kudasai",
+        "meaning": ["hãy đọc đi"],
+        "audio": ""
+    },
+    {
+        "word": "あけてください",
+        "romanji": "akete kudasai",
+        "meaning": ["hãy mở ra"],
+        "audio": ""
+    },
+    {
+        "word": "いってください",
+        "romanji": "itte kudasai",
+        "meaning": ["hãy nói đi"],
+        "audio": ""
+    },
+    {
+        "word": "みてください",
+        "romanji": "mite kudasai",
+        "meaning": ["hãy xem đi"],
+        "audio": ""
+    },
+    {
+        "word": "はなしてください",
+        "romanji": "hanashite kudasai",
+        "meaning": ["hãy nói chuyện đi"],
+        "audio": ""
+    },
+    {
+        "word": "じゅぎょうをはじめます",
+        "romanji": "jugyou o hajimemasu",
+        "meaning": ["bắt đầu tiết học"],
+        "audio": ""
+    },
+    {
+        "word": "じゅぎょうをおわいます",
+        "romanji": "jugyou o owarimasu",
+        "meaning": ["kết thúc tiết học"],
+        "audio": ""
+    },
+    {
+        "word": "せんせい　’きょうしつ’ってどういういみですか",
+        "romanji": "sensei 'kyoushitsu' tte dou iu imi desu ka",
+        "meaning": ["Thầy/cô ơi, 'きょうしつ' có nghĩa là gì?"],
+        "audio": ""
+    },
+    {
+        "word": "英語で 'classroom'　ですよ",
+        "romanji": "Eigo de 'classroom' desu yo",
+        "meaning": ["Trong tiếng Anh là 'classroom'."],
+        "audio": ""
+    },
+    {
+        "word": "わかりました",
+        "romanji": "wakarimashita",
+        "meaning": ["Tôi hiểu rồi."],
+        "audio": ""
+    },
+    {
+        "word": "わかりません",
+        "romanji": "wakarimasen",
+        "meaning": ["Tôi không hiểu."],
+        "audio": ""
+    },
+    {
+        "word": "もういちどおねがいします",
+        "romanji": "mou ichido onegaishimasu",
+        "meaning": ["Xin hãy làm ơn một lần nữa."],
+        "audio": ""
+    },
+    {
+        "word": "もうすこしゆっくりいってください",
+        "romanji": "mou sukoshi yukkuri itte kudasai",
+        "meaning": ["Xin hãy nói chậm một chút."],
+        "audio": ""
+    },
+    {
+        "word": "すみません、おくれます",
+        "romanji": "sumimasen, okuremasu",
+        "meaning": ["Xin lỗi, tôi sẽ đến muộn."],
+        "audio": ""
+    },
+    {
+        "word": "ちょっとしつれいします",
+        "romanji": "chotto shitsurei shimasu",
+        "meaning": ["Xin lỗi, tôi xin phép một chút."],
+        "audio": ""
+    },
+    {
+        "word": "すみません休みます",
+        "romanji": "sumimasen, yasumimasu",
+        "meaning": ["Xin lỗi, tôi sẽ nghỉ một chút."],
+        "audio": ""
+    },
+    {
+        "word": "",
+        "romanji": "",
+        "meaning": [""],
+        "audio": ""
     }
 ]
