@@ -145,7 +145,7 @@
     },
     {
         "word": "おはよう",
-        "romanji": "ohayoo",
+        "romanji": "ohayou",
         "meaning": ["chào buổi sáng"],
         "audio": ""
     },
@@ -294,13 +294,7 @@
         "audio": ""
     },
     {
-        "word": "てんしゃ",
-        "romanji": "densha",
-        "meaning": ["tàu điện"],
-        "audio": ""
-    },
-    {
-        "word": "しゆくだい",
+        "word": "しゅくだい",
         "romanji": "shikudai",
         "meaning": ["bài tập về nhà"],
         "audio": ""
@@ -408,7 +402,7 @@
         "audio": ""
     },
     {
-        "word": "ぴじゅつ",
+        "word": "びじゅつ",
         "romanji": "bijutsu",
         "meaning": ["mỹ thuật"],
         "audio": ""
@@ -444,24 +438,6 @@
         "audio": ""
     },
     {
-        "word": "ぶた",
-        "romanji": "buta",
-        "meaning": ["con lợn"],
-        "audio": ""
-    },
-    {
-        "word": "ふね",
-        "romanji": "fune",
-        "meaning": ["chiếc thuyền"],
-        "audio": ""
-    },
-    {
-        "word": "あき",
-        "romanji": "aki",
-        "meaning": ["mùa thu"],
-        "audio": ""
-    },
-    {
         "word": "じてんしゃ",
         "romanji": "jitensha",
         "meaning": ["xe đạp"],
@@ -471,12 +447,6 @@
         "word": "かぞく",
         "romanji": "kazoku",
         "meaning": ["gia đình"],
-        "audio": ""
-    },
-    {
-        "word": "ほんや",
-        "romanji": "honya",
-        "meaning": ["hiệu sách"],
         "audio": ""
     },
     {
@@ -528,12 +498,6 @@
         "audio": ""
     },
     {
-        "word": "てんぷら",
-        "romanji": "tenpura",
-        "meaning": ["bánh tempura"],
-        "audio": ""
-    },
-    {
         "word": "ともだち",
         "romanji": "tomodachi",
         "meaning": ["bạn bè"],
@@ -576,8 +540,8 @@
         "audio": ""
     },
     {
-        "word": "おとおさん",
-        "romanji": "otoosan",
+        "word": "おとうさん",
+        "romanji": "otousan",
         "meaning": ["cha"],
         "audio": ""
     },
@@ -618,7 +582,7 @@
         "audio": ""
     },
     {
-        "word": "きゃう",
+        "word": "きょう",
         "romanji": "kyou",
         "meaning": ["hôm nay"],
         "audio": ""
@@ -684,14 +648,14 @@
         "audio": ""
     },
     {
-        "word": "もういちどおねがいします",
-        "romanji": "mouichidoonegaishimasu",
+        "word": "もう いちど おねがいします",
+        "romanji": "mou ichido onegaishimasu",
         "meaning": ["làm ơn hãy nói lại lần nữa"],
         "audio": ""
     },
     {
-        "word": "こおい",
-        "romanji": "kooi",
+        "word": "こおり",
+        "romanji": "koori",
         "meaning": ["đá lạnh"],
         "audio": ""
     },
@@ -722,13 +686,7 @@
     {
         "word": "きって",
         "romanji": "kitte",
-        "meaning": ["tem　thu"],
-        "audio": ""
-    },
-    {
-        "word": "おっと",
-        "romanji": "otto",
-        "meaning": ["chồng"],
+        "meaning": ["tem thư"],
         "audio": ""
     },
     {
@@ -800,7 +758,7 @@
     {
         "word": "がくせい",
         "romanji": "gakusei",
-        "meaning": ["học sinh"],
+        "meaning": ["sinh viên"],
         "audio": ""
     },
     {
@@ -876,7 +834,7 @@
         "audio": ""
     },
     {
-        "word": "じゅぎょうをおわいます",
+        "word": "じゅぎょうをおわります",
         "romanji": "jugyou o owarimasu",
         "meaning": ["kết thúc tiết học"],
         "audio": ""
@@ -930,9 +888,39 @@
         "audio": ""
     },
     {
-        "word": "すみません休みます",
+        "word": "すみませんやすみます",
         "romanji": "sumimasen, yasumimasu",
         "meaning": ["Xin lỗi, tôi sẽ nghỉ một chút."],
+        "audio": ""
+    },
+    {
+        "word": "おかげさまで　げんきです。",
+        "romanji": "Okage-sama de genki desu..",
+        "meaning": ["Nhờ có bạn mà tôi vẫn ổn."],
+        "audio": ""
+    },
+    {
+        "word": "ざいたくきんむ",
+        "romanji": "zaitaku kinmuz",
+        "meaning": ["làm việc tại nhà (WFH)"],
+        "audio": ""
+    },
+    {
+        "word": "イカ",
+        "romanji": "ika",
+        "meaning": ["con mực"],
+        "audio": ""
+    },
+    {
+        "word": "おてあらい",
+        "romanji": "otearai",
+        "meaning": ["nhà vệ sinh"],
+        "audio": ""
+    },
+    {
+        "word": "",
+        "romanji": "",
+        "meaning": [""],
         "audio": ""
     },
     {
