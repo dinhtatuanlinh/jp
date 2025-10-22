@@ -1,0 +1,875 @@
+[
+    {
+        "sentence": "はじめまして。やまだです。",
+        "romanji": "hajimemashite. yamada desu.",
+        "meaning": ["Xin chào. Tôi là Yamada."],
+        "audio": ""
+    },
+    {
+        "sentence": "おのう、おなまえは？",
+        "romanji": "onou, onamae wa?",
+        "meaning": ["Xin lỗi, bạn tên là gì?"],
+        "audio": ""
+    },
+    {
+        "sentence": "ワンです。",
+        "romanji": "wan desu.",
+        "meaning": ["Tôi là Wan."],
+        "audio": ""
+    },
+    {
+        "sentence": "ワンさんですね。どうぞよろしく。",
+        "romanji": "wan-san desu ne. douzo yoroshiku.",
+        "meaning": ["Bạn là Wan nhỉ. Rất vui được gặp bạn."],
+        "audio": ""
+    },
+    {
+        "sentence": "どうぞよろしく。",
+        "romanji": "douzo yoroshiku.",
+        "meaning": ["Rất vui được gặp bạn."],
+        "audio": ""
+    },
+    {
+        "sentence": "どちらからですか？",
+        "romanji": "dochira kara desu ka?",
+        "meaning": ["Bạn đến từ đâu?"],
+        "audio": ""
+    },
+    {
+        "sentence": "ベトナムからです。",
+        "romanji": "betonamu kara desu.",
+        "meaning": ["Tôi đến từ Việt Nam."],
+        "audio": ""
+    },
+    {
+        "sentence": "おくにわ？",
+        "romanji": "okuni wa?",
+        "meaning": ["Quốc gia của bạn là gì?"],
+        "audio": ""
+    },
+    {
+        "sentence": "ベトナムです。",
+        "romanji": "betonamu desu.",
+        "meaning": ["việt nam."],
+        "audio": ""
+    },
+    {
+        "sentence": "はじめまして。",
+        "romanji": "hajimemashite.",
+        "meaning": ["Xin chào."],
+        "audio": ""
+    },
+    {
+        "sentence": "どうぞよろしくおねがいします。",
+        "romanji": "douzo yoroshiku onegaishimasu.",
+        "meaning": ["Rất vui được gặp bạn."],
+        "audio": ""
+    },
+    {
+        "sentence": "もういちどおねがいします。",
+        "romanji": "mou ichido onegaishimasu.",
+        "meaning": ["xin hãy nói lại một lần nữa"],
+        "audio": ""
+    },
+    {
+        "sentence": "あのおなまえわ？",
+        "romanji": "ano onamae wa?",
+        "meaning": ["Tên của bạn là gì?"],
+        "audio": ""
+    },
+    {
+        "sentence": "田中でですか。",
+        "romanji": "Tanaka de desu ka.",
+        "meaning": ["Bạn là Tanaka phải không?"],
+        "audio": ""
+    },
+    {
+        "sentence": "どちらからですか？",
+        "romanji": "dochira kara desu ka?",
+        "meaning": ["Bạn đến từ đâu?"],
+        "audio": ""
+    },
+    {
+        "sentence": "ベトナムからです。",
+        "romanji": "betonamu kara desu.",
+        "meaning": ["Tôi đến từ Việt Nam."],
+        "audio": ""
+    },
+    {
+        "sentence": "はい、できます。",
+        "romanji": "hai, dekimasu.",
+        "meaning": ["Vâng, tôi có thể."],
+        "audio": ""
+    },
+    {
+        "sentence": "はい、すこしできます。",
+        "romanji": "hai, sukoshi dekimasu.",
+        "meaning": ["Vâng, tôi có thể một chút."],
+        "audio": ""
+    },
+    {
+        "sentence": "べんきょうちゅうです。",
+        "romanji": "benkyou chuu desu.",
+        "meaning": ["Tôi đang học."],
+        "audio": ""
+    },
+    {
+        "sentence": "いいえ、ですません。",
+        "romanji": "iie, desu masen.",
+        "meaning": ["Không, tôi không thể."],
+        "audio": ""
+    },
+    {
+        "sentence": "エゴできますか？",
+        "romanji": "ego dekimasu ka?",
+        "meaning": ["Bạn có thể nói tiếng Anh không?"],
+        "audio": ""
+    },
+    {
+        "sentence": "はい、エゴできます。",
+        "romanji": "hai, ego dekimasu.",
+        "meaning": ["Vâng, tôi có thể nói tiếng Anh."],
+        "audio": ""
+    },
+    {
+        "sentence": "いいえ、エゴはできません。",
+        "romanji": "iie, ego wa dekimasen.",
+        "meaning": ["Không, tôi không thể nói tiếng Anh."],
+        "audio": ""
+    },
+    {
+        "sentence": "ちゅごくごおもしろい。",
+        "romanji": "chugokugo omoshiroi.",
+        "meaning": ["Tiếng Trung Quốc thật thú vị."],
+        "audio": ""
+    },
+    {
+        "sentence":"そうですか。",
+        "romanji": "sou desu ka.",
+        "meaning": ["vậy à"],
+        "audio": ""
+    },
+    {
+        "sentence": "そうか。",
+        "romanji": "sou ka.",
+        "meaning": ["vậy à"],
+        "audio": ""
+    },
+    {
+        "sentence": "べんきょうちゅうです。",
+        "romanji": "benkyou chuu desu.",
+        "meaning": ["Tôi đang học."],
+        "audio": ""
+    },
+    {
+        "sentence": "おしごとは？",
+        "romanji": "oshigoto wa?",
+        "meaning": ["Công việc của bạn là gì?"],
+        "audio": ""
+    },
+    {
+        "sentence": "エンジニアです。",
+        "romanji": "enjinia desu.",
+        "meaning": ["Tôi là kỹ sư."],
+        "audio": ""
+    },
+    {
+        "sentence": "そうですか。わたしはしゅふです。",
+        "romanji": "sou desu ka. watashi wa shufu desu.",
+        "meaning": ["Vậy à. Tôi là nội trợ."],
+        "audio": ""
+    },
+    {
+        "sentence": "どうぞよろしく。",
+        "romanji": "douzo yoroshiku.",
+        "meaning": ["Rất vui được gặp bạn."],
+        "audio": ""
+    },
+    {
+        "sentence": "はじめまして。さとうともうします。",
+        "romanji": "hajimemashite. satou to moushimasu.",
+        "meaning": ["Xin chào. Tôi tên là Sato."],
+        "audio": ""
+    },
+    {
+        "sentence": "どうぞよろしくおねがいします。",
+        "romanji": "douzo yoroshiku onegaishimasu.",
+        "meaning": ["Rất vui được gặp bạn."],
+        "audio": ""
+    },
+    {
+        "sentence": "ちょうだいいたします。",
+        "romanji": "choudai itashimasu.",
+        "meaning": ["Xin vui lòng giúp đỡ."],
+        "audio": ""
+    },
+    {
+        "sentence": "わたしのかぞくはさんにんです。",
+        "romanji": "watashi no kazoku wa san nin desu.",
+        "meaning": ["Gia đình tôi có ba người."],
+        "audio": ""
+    },
+    {
+        "sentence": "ちちとははと私です。",
+        "romanji": "chichi to haha to watashi desu.",
+        "meaning": ["có cha mẹ và tôi."],
+        "audio": ""
+    },
+    {
+        "sentence": "わたしはろくにんかぞくです。",
+        "romanji": "watashi wa roku nin kazoku desu.",
+        "meaning": ["Gia đình tôi có sáu người."],
+        "audio": ""
+    },
+    {
+        "sentence": "わたしとつまとこどもふたりです。",
+        "romanji": "watashi to tsuma to kodomo futari desu.",
+        "meaning": ["Có tôi, vợ tôi và hai đứa trẻ."],
+        "audio": ""
+    },
+    {
+        "sentence": "このひとはだれですか？",
+        "romanji": "kono hito wa dare desu ka?",
+        "meaning": ["Người này là ai?"],
+        "audio": ""
+    },
+    {
+        "sentence": "いもうと。",
+        "romanji": "imouto.",
+        "meaning": ["Em gái."],
+        "audio": ""
+    },
+    {
+        "sentence": "ソウルにすんでいます。",
+        "romanji": "souru ni sundeimasu.",
+        "meaning": ["Tôi đang sống ở Seoul."],
+        "audio": ""
+    },
+    {
+        "sentence": "ともだち。",
+        "romanji": "tomodachi.",
+        "meaning": ["Bạn bè."],
+        "audio": ""
+    },
+    {
+        "sentence": "このひとであねです。",
+        "romanji": "kono hito de ane desu.",
+        "meaning": ["Người này là chị gái."],
+        "audio": ""
+    },
+    {
+        "sentence": "このこはだれですか？",
+        "romanji": "kono ko wa dare desu ka?",
+        "meaning": ["Đứa trẻ này là ai?"],
+        "audio": ""
+    },
+    {
+        "sentence": "あねのこどもです。よんさいです。",
+        "romanji": "ane no kodomo desu. yon sai desu.",
+        "meaning": ["Đây là con của chị gái tôi. Bốn tuổi."],
+        "audio": ""
+    },
+    {
+        "sentence": "おいくつですか？",
+        "romanji": "oikutsu desu ka?",
+        "meaning": ["Bao nhiêu tuổi?"],
+        "audio": ""
+    },
+    {
+        "sentence": "どこにすんでますか？",
+        "romanji": "doko ni sundeimasu ka?",
+        "meaning": ["Sống ở đâu?"],
+        "audio": ""
+    },
+    {
+        "sentence": "おしごとは？",
+        "romanji": "oshigoto wa?",
+        "meaning": ["Công việc là gì?"],
+        "audio": ""
+    },
+    {
+        "sentence": "おのうおなまえは？",
+        "romanji": "onou onamae wa?",
+        "meaning": ["Tên của bạn là gì?"],
+        "audio": ""
+    },
+    {
+        "sentence": "どちらからですか？",
+        "romanji": "dochira kara desu ka?",
+        "meaning": ["Bạn đến từ đâu?"],
+        "audio": ""
+    },
+    {
+        "sentence": "おしごとは？",
+        "romanji": "oshigoto wa?",
+        "meaning": ["Công việc là gì?"],
+        "audio": ""
+    },
+    {
+        "sentence": "えいごができますか？",
+        "romanji": "ego dekimasu ka?",
+        "meaning": ["Bạn có thể nói tiếng Anh không?"],
+        "audio": ""
+    },
+    {
+        "sentence": "おねえさんはどこすんでいますか？",
+        "romanji": "oneesan wa doko ni sundeimasu ka?",
+        "meaning": ["Chị bạn sống ở đâu?"],
+        "audio": ""
+    },
+    {
+        "sentence": "キムさんはせんせいじゃないです。",
+        "romanji": "Kimu-san wa sensei ja nai desu.",
+        "meaning": ["Kim không phải là giáo viên."],
+        "audio": ""
+    },
+    {
+        "sentence": "キムさんはがくせいです。",
+        "romanji": "Kimu-san wa gakusei desu.",
+        "meaning": ["Kim là học sinh."],
+        "audio": ""
+    },
+    {
+        "sentence": "キムさんはがくせいですか？",
+        "romanji": "Kimu-san wa gakusei desu ka?",
+        "meaning": ["Kim có phải là học sinh không?"],
+        "audio": ""
+    },
+    {
+        "sentence": "にほんごじゃないです。",
+        "romanji": "nihongo ja nai desu.",
+        "meaning": ["Không phải tiếng Nhật."],
+        "audio": ""
+    },
+    {
+        "sentence": "ちゅごくごです。",
+        "romanji": "chuugokugo desu.",
+        "meaning": ["Là tiếng Trung."],
+        "audio": ""
+    },
+    {
+        "sentence": "かーらさん、おくには？",
+        "romanji": "Kaara-san, okuni wa?",
+        "meaning": ["Kaara, bạn đến từ đâu?"],
+        "audio": ""
+    },
+    {
+        "sentence": "わたしはえいごとにほんごできま。",
+        "romanji": "watashi wa eigo to nihongo dekimasu.",
+        "meaning": ["Tôi có thể nói tiếng Anh và tiếng Nhật."],
+        "audio": ""
+    },
+    {
+        "sentence": "えいごができま。にほんごもできま。",
+        "romanji": "eigo ga dekimasu. nihongo mo dekimasu.",
+        "meaning": ["Tôi có thể nói tiếng Anh. Tôi cũng có thể nói tiếng Nhật."],
+        "audio": ""
+    },
+    {
+        "sentence": "わたしもエンジニアです。",
+        "romanji": "watashi mo enjinia desu.",
+        "meaning": ["Tôi cũng là kỹ sư."],
+        "audio": ""
+    },
+    {
+        "sentence": "私わはベトナム人です。",
+        "romanji": "watashi wa Betonamu-jin desu.",
+        "meaning": ["Tôi là người Việt Nam."],
+        "audio": ""
+    },
+    {
+        "sentence": "わたしもベトナム人です。",
+        "romanji": "watashi mo Betonamu-jin desu.",
+        "meaning": ["Tôi cũng là người Việt Nam."],
+        "audio": ""
+    },
+    {
+        "sentence": "キムさんのおとうさんのしごとは？",
+        "romanji": "Kimu-san no otousan no shigoto wa?",
+        "meaning": ["Công việc của bố Kim là gì?"],
+        "audio": ""
+    },
+    {
+        "sentence": "このかぞくはとうきょうにすんでいます。",
+        "romanji": "kono kazoku wa Toukyou ni sundeimasu.",
+        "meaning": ["Gia đình này sống ở Tokyo."],
+        "audio": ""
+    },
+    {
+        "sentence": "わたしたちはおおさかにすんでいます。",
+        "romanji": "watashitachi wa Oosaka ni sundeimasu.",
+        "meaning": ["Chúng tôi sống ở Osaka."],
+        "audio": ""
+    },
+    {
+        "sentence": "このおとこのこはだれですか？",
+        "romanji": "kono otoko no ko wa dare desu ka?",
+        "meaning": ["Cậu bé này là ai?"],
+        "audio": ""
+    },
+    {
+        "sentence": "かねいいですね。なんさいですか？",
+        "romanji": "Kane ii desu ne. nansai desu ka?",
+        "meaning": ["dễ thương nhỉ. Bạn bao nhiêu tuổi?"],
+        "audio": ""
+    },
+    {
+        "sentence": "なにがすきですか？",
+        "romanji": "nani ga suki desu ka?",
+        "meaning": ["Bạn thích gì?"],
+        "audio": ""
+    },
+    {
+        "sentence": "たまごがすきです。",
+        "romanji": "tamago ga suki desu.",
+        "meaning": ["Tôi thích trứng."],
+        "audio": ""
+    },
+    {
+        "sentence": "ご飯とみそしるたべま。",
+        "romanji": "gohan to misoshiru tabemasu.",
+        "meaning": ["Tôi ăn cơm và súp miso."],
+        "audio": ""
+    },
+    {
+        "sentence": "パンをたべます。",
+        "romanji": "pan o tabemasu.",
+        "meaning": ["Tôi ăn bánh mì."],
+        "audio": ""
+    },
+    {
+        "sentence": "たなかさん。なにがすきですか？",
+        "romanji": "Tanaka-san. nani ga suki desu ka?",
+        "meaning": ["Tanaka, bạn thích gì?"],
+        "audio": ""
+    },
+    {
+        "sentence": "やさいは？",
+        "romanji": "yasai wa?",
+        "meaning": ["Rau thì sao?"],
+        "audio": ""
+    },
+    {
+        "sentence": "やさいはすきじゃないです。",
+        "romanji": "yasai wa suki ja nai desu.",
+        "meaning": ["Tôi không thích rau."],
+        "audio": ""
+    },
+    {
+        "sentence": "やさいとくだものがすきです。",
+        "romanji": "yasai to kudamono ga suki desu.",
+        "meaning": ["Tôi thích rau và trái cây."],
+        "audio": ""
+    },
+    {
+        "sentence": "そうですね。",
+        "romanji": "soudesune.",
+        "meaning": ["Đúng vậy nhỉ."],
+        "audio": ""
+    },
+    {
+        "sentence": "にくもすきです。",
+        "romanji": "niku mo suki desu.",
+        "meaning": ["Tôi cũng thích thịt."],
+        "audio": ""
+    },
+    {
+        "sentence": "さかなは？",
+        "romanji": "sakana wa?",
+        "meaning": ["Cá thì sao?"],
+        "audio": ""
+    },
+    {
+        "sentence": "たべものはなにがすきですか？",
+        "romanji": "tabemono wa nani ga suki desu ka?",
+        "meaning": ["Bạn thích món ăn gì?"],
+        "audio": ""
+    },
+    {
+        "sentence": "のみものはなにがすきですか？",
+        "romanji": "nomimono wa nani ga suki desu ka?",
+        "meaning": ["Bạn thích đồ uống gì?"],
+        "audio": ""
+    },
+    {
+        "sentence": "ないなにをのみます。",
+        "romanji": "nani o nomimasu.",
+        "meaning": [""],
+        "audio": ""
+    },
+    {
+        "sentence": "コーヒーをのみます。",
+        "romanji": "Koohii o nomimasu.",
+        "meaning": ["Tôi uống cà phê."],
+        "audio": ""
+    },
+    {
+        "sentence": "たなかさん。コーヒーをのみますか？",
+        "romanji": "Tanaka-san. Koohii o nomimasu ka?",
+        "meaning": ["Tanaka, bạn có uống cà phê không?"],
+        "audio": ""
+    },
+    {
+        "sentence": "ジュースは？",
+        "romanji": "Juusu wa?",
+        "meaning": ["Nước trái cây thì sao?"],
+        "audio": ""
+    },
+    {
+        "sentence": "けこです。",
+        "romanji": "",
+        "meaning": [""],
+        "audio": ""
+    },
+    {
+        "sentence": "ども。すみません。",
+        "romanji": "Domo. Sumimasen.",
+        "meaning": ["Cảm ơn. đã làm phiền"],
+        "audio": ""
+    },
+    {
+        "sentence": "コーヒーをおねがいします。",
+        "romanji": "Koohii o onegaishimasu.",
+        "meaning": ["Cho tôi một cốc cà phê."],
+        "audio": ""
+    },
+    {
+        "sentence": "こちゃおねがいします。",
+        "romanji": "Kocha o onegaishimasu.",
+        "meaning": ["Cho tôi một cốc trà."],
+        "audio": ""
+    },
+    {
+        "sentence": "いいえ、けっこうです。",
+        "romanji": "Iie, kekkou desu.",
+        "meaning": ["Không, tôi không cần đâu."],
+        "audio": ""
+    },
+    {
+        "sentence": "阿部さん、いつもあさごはんたべますか？",
+        "romanji": "Abe-san, itsumo asagohan tabemasu ka?",
+        "meaning": ["Abe, bạn có hay ăn sáng không?"],
+        "audio": ""
+    },
+    {
+        "sentence": "いいえ、たべません。",
+        "romanji": "Iie, tabemasen.",
+        "meaning": ["Không, tôi không ăn."],
+        "audio": ""
+    },
+    {
+        "sentence": "なにをよくたべますか？",
+        "romanji": "Nani o yoku tabemasu ka?",
+        "meaning": ["Bạn thường ăn gì?"],
+        "audio": ""
+    },
+    {
+        "sentence": "くだものはあまりたべません。",
+        "romanji": "Kudamono wa amari tabemasen.",
+        "meaning": ["Tôi không thường ăn trái cây."],
+        "audio": ""
+    },
+    {
+        "sentence": "コーヒーをのみます。",
+        "romanji": "Koohii o nomimasu.",
+        "meaning": ["Tôi uống cà phê."],
+        "audio": ""
+    },
+    {
+        "sentence": "たまごをよくたべます。",
+        "romanji": "Tamago o yoku tabemasu.",
+        "meaning": ["Tôi thường ăn trứng."],
+        "audio": ""
+    },
+    {
+        "sentence": "すきなりょうりはなんですか？",
+        "romanji": "Suki na ryouri wa nan desu ka?",
+        "meaning": ["Món ăn yêu thích của bạn là gì?"],
+        "audio": ""
+    },
+    {
+        "sentence": "カレーがいちばんすきです。",
+        "romanji": "Karee ga ichiban suki desu.",
+        "meaning": ["tôi thích nhất là cà ri."],
+        "audio": ""
+    },
+    {
+        "sentence": "りんさんひるごはんきょうはどこでたべますか？",
+        "romanji": "Rin-san, hirugohan kyou wa doko de tabemasu ka?",
+        "meaning": ["Rin, trưa nay ăn ở đâu?"],
+        "audio": ""
+    },
+    {
+        "sentence": "A さん、ひるごはん、どこでたべますか？",
+        "romanji": "A-san, hirugohan, doko de tabemasu ka?",
+        "meaning": ["A, trưa nay bạn sẽ ăn ở đâu?"],
+        "audio": ""
+    },
+    {
+        "sentence": "やすいです。",
+        "romanji": "yasui desu.",
+        "meaning": ["Rẻ."],
+        "audio": ""
+    },
+    {
+        "sentence": "はやいです。",
+        "romanji": "hayai desu.",
+        "meaning": ["Nhanh."],
+        "audio": ""
+    },
+    {
+        "sentence": "おいしいです。",
+        "romanji": "Oishii desu.",
+        "meaning": ["Ngon."],
+        "audio": ""
+    },
+    {
+        "sentence": "はやいですよ、あのみせは",
+        "romanji": "Hayai desu yo, ano mise wa.",
+        "meaning": ["Quán đó nhanh lắm đấy."],
+        "audio": ""
+    },
+    {
+        "sentence": "きょうはどこたべますか？",
+        "romanji": "Kyou wa doko tabemasu ka?",
+        "meaning": ["Hôm nay bạn sẽ ăn ở đâu?"],
+        "audio": ""
+    },
+    {
+        "sentence": "あのみせでたべましょう。",
+        "romanji": "Ano mise de tabemashou.",
+        "meaning": ["Chúng ta hãy ăn ở quán đó nhé."],
+        "audio": ""
+    },
+    {
+        "sentence": "ラーメンですか？",
+        "romanji": "Raamen desu ka?",
+        "meaning": ["Có phải là món ramen không?"],
+        "audio": ""
+    },
+    {
+        "sentence": "はい、あのみせはおいしいですよ。",
+        "romanji": "Hai, ano mise wa oishii desu yo.",
+        "meaning": ["Vâng, quán đó ngon lắm."],
+        "audio": ""
+    },
+    {
+        "sentence": "じゃあ、そうしましょう。",
+        "romanji": "Jaa, sou shimashou.",
+        "meaning": ["Vậy thì, như vậy nhé."],
+        "audio": ""
+    },
+    {
+        "sentence": "いらっしゃいませ。",
+        "romanji": "Irasshaimase.",
+        "meaning": ["Xin chào quý khách."],
+        "audio": ""
+    },
+    {
+        "sentence": "すみません、ハンバーガーひとつください。",
+        "romanji": "Sumimasen, hanbaagaa hitotsu kudasai.",
+        "meaning": ["Cho tôi một cái hamburger."],
+        "audio": ""
+    },
+    {
+        "sentence": "ハンバーガーひとつとコーヒーふたつください。",
+        "romanji": "Hanbaagaa hitotsu to koohii futatsu kudasai.",
+        "meaning": ["Cho tôi một cái hamburger và hai cốc cà phê."],
+        "audio": ""
+    },
+    {
+        "sentence": "はい、ハンバーガーひとつですね。",
+        "romanji": "Hai, hanbaagaa hitotsu desu ne.",
+        "meaning": ["Vâng, một cái hamburger nhé."],
+        "audio": ""
+    },
+    {
+        "sentence": "どうもありがとうございます。",
+        "romanji": "Doumo arigatou gozaimasu.",
+        "meaning": ["Cảm ơn rất nhiều."],
+        "audio": ""
+    },
+    {
+        "sentence": "",
+        "romanji": "",
+        "meaning": [""],
+        "audio": ""
+    },
+    {
+        "sentence": "",
+        "romanji": "",
+        "meaning": [""],
+        "audio": ""
+    },
+    {
+        "sentence": "",
+        "romanji": "",
+        "meaning": [""],
+        "audio": ""
+    },
+    {
+        "sentence": "",
+        "romanji": "",
+        "meaning": [""],
+        "audio": ""
+    },
+    {
+        "sentence": "",
+        "romanji": "",
+        "meaning": [""],
+        "audio": ""
+    },
+    {
+        "sentence": "",
+        "romanji": "",
+        "meaning": [""],
+        "audio": ""
+    },
+    {
+        "sentence": "",
+        "romanji": "",
+        "meaning": [""],
+        "audio": ""
+    },
+    {
+        "sentence": "",
+        "romanji": "",
+        "meaning": [""],
+        "audio": ""
+    },
+    {
+        "sentence": "",
+        "romanji": "",
+        "meaning": [""],
+        "audio": ""
+    },
+    {
+        "sentence": "",
+        "romanji": "",
+        "meaning": [""],
+        "audio": ""
+    },
+    {
+        "sentence": "",
+        "romanji": "",
+        "meaning": [""],
+        "audio": ""
+    },
+    {
+        "sentence": "",
+        "romanji": "",
+        "meaning": [""],
+        "audio": ""
+    },
+    {
+        "sentence": "",
+        "romanji": "",
+        "meaning": [""],
+        "audio": ""
+    },
+    {
+        "sentence": "",
+        "romanji": "",
+        "meaning": [""],
+        "audio": ""
+    },
+    {
+        "sentence": "",
+        "romanji": "",
+        "meaning": [""],
+        "audio": ""
+    },
+    {
+        "sentence": "",
+        "romanji": "",
+        "meaning": [""],
+        "audio": ""
+    },
+    {
+        "sentence": "",
+        "romanji": "",
+        "meaning": [""],
+        "audio": ""
+    },
+    {
+        "sentence": "",
+        "romanji": "",
+        "meaning": [""],
+        "audio": ""
+    },
+    {
+        "sentence": "",
+        "romanji": "",
+        "meaning": [""],
+        "audio": ""
+    },
+    {
+        "sentence": "",
+        "romanji": "",
+        "meaning": [""],
+        "audio": ""
+    },
+    {
+        "sentence": "",
+        "romanji": "",
+        "meaning": [""],
+        "audio": ""
+    },
+    {
+        "sentence": "",
+        "romanji": "",
+        "meaning": [""],
+        "audio": ""
+    },
+    {
+        "sentence": "",
+        "romanji": "",
+        "meaning": [""],
+        "audio": ""
+    },
+    {
+        "sentence": "",
+        "romanji": "",
+        "meaning": [""],
+        "audio": ""
+    },
+    {
+        "sentence": "",
+        "romanji": "",
+        "meaning": [""],
+        "audio": ""
+    },
+    {
+        "sentence": "",
+        "romanji": "",
+        "meaning": [""],
+        "audio": ""
+    },
+    {
+        "sentence": "",
+        "romanji": "",
+        "meaning": [""],
+        "audio": ""
+    },
+    {
+        "sentence": "",
+        "romanji": "",
+        "meaning": [""],
+        "audio": ""
+    },
+    {
+        "sentence": "",
+        "romanji": "",
+        "meaning": [""],
+        "audio": ""
+    },
+    {
+        "sentence": "",
+        "romanji": "",
+        "meaning": [""],
+        "audio": ""
+    }
+
+
+
+]
